@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+
+Sitemap: https://www.francevtc.fr/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
