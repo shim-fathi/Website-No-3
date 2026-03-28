@@ -1,12 +1,8 @@
 User-agent: *
 Allow: /
 
-Disallow: /admin/
-Disallow: /private/
-Disallow: /cgi-bin/
-Disallow: /*.php$
+# Disallow unnecessary folders
+Disallow: /.git/
 
-Sitemap: https://www.francevtc.fr/sitemap.xml
-
-# Crawl-delay for polite bots
-Crawl-delay: 10
+# Sitemap location
+Sitemap: https://www.franceairporttaxi.com/sitemap.xml
